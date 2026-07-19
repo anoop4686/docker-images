@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apache-website
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: apache-website
+  template:
+    metadata:
+      labels:
+        app: apache-website
+    spec:
+      containers:
+      - name: apache-container
+        image: anoop4686/maxant-9090:v1
+        ports:
+        - containerPort: 80
