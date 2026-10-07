@@ -103,7 +103,7 @@ UAT
     |
     v
 Production
-e:\Git\docker-images\images\dokcer-problem.png
+![Docker Architecture](images\dokcer-problem.png)
 
 ```
 
