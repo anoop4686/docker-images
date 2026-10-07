@@ -103,9 +103,9 @@ UAT
     |
     v
 Production
+```
 ![Docker Architecture](images\dokcer-problem.png)
 
-```
 
 This reduces environment differences.
 
